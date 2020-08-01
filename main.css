@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+li{
+    list-style: none;
+}
+
+.page{
+    display: flex;
+}
+
+nav{
+    height: 600px;
+    flex-grow: 1;
+}
+.side-navbar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+main{
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    flex-grow: 10;
+}
