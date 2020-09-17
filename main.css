@@ -45,18 +45,18 @@ a{
 }
 .burger-menu .line-one{
     height: 1px;
-    width: 50px;
+    width: 40px;
     background: white;
 }
 .burger-menu .line-two{
     height: 1px;
-    width: 35px;
+    width: 30px;
     background: white;
     margin-top: 8px;
 }
 .burger-menu .line-three{
     height: 1px;
-    width: 50px;
+    width: 40px;
     background: white;
     margin-top: 8px;
 }
