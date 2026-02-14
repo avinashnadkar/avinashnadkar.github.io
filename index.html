@@ -1,51 +1,374 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Avinash Nadkar</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinash - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="social">  
-        <ul class="social-media-list">
-            <li><a href="https://www.instagram.com/avii__sci/" target="blank"><i class="fa fa-instagram" style="font-size:30px"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/avinash-nadkar-5932681a3/" target="blank"><i class="fa fa-linkedin-square" style="font-size:30px"></i></a></li>
-            <li><a href="https://github.com/avinashnadkar/" target="blank"><i class="fa fa-github" style="font-size:30px"></i></a></li>
-         </ul>
-    </div>
-    <div class="burger-menu">
-        <div class="line-one"></div>
-        <div class="line-two"></div>
-        <div class="line-three"></div>
-    </div>
-    <nav class="navi">
-        <ul class="navbar">
-           <li><a href="index.html" class="hover-link">Home</a></li>
-           <li><a href="about.html" class="hover-link">About</a></li>
-           <li><a href="portfolio.html" class="hover-link">Portfolio</a></li>
-           <li><a href="contact.html" class="hover-link">Contact</a></li>
-        </ul>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>&lt;/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Avinash-Nadkar-resume.pdf" class="nav-link resume-link" target="_blank" rel="noopener noreferrer" download="Avinash-Nadkar-resume.pdf">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
     </nav>
-    
-    <main class="index-main">
 
-        <div class="home" id="home">
-        <div class="title-container">
-        <p>Hello, I am Avinash <br>A web Developer </p>
-        <div class="btn"><a href="portfolio.html" targrt="blank"><button id="title-btn">See projects <span class="arrow-work">&#8594;</span> </button></a></div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm Avinash
+                </h1>
+                <h2 class="hero-subtitle">Full Stack Web Developer</h2>
+                <p class="hero-description">
+                    Passionate about building scalable applications and automation solutions with 3+ years of experience in Node.js, React, and Spring Boot.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="Avinash-Nadkar-resume.pdf" class="btn btn-secondary resume-link" target="_blank" rel="noopener noreferrer" download="Avinash-Nadkar-resume.pdf">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
         </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
         </div>
-        
-    </main>
+    </section>
 
-    <script src='main.js'></script>
-    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-summary">
+                        Full Stack Developer with 3 years of experience in Java, React and Node.js specializing in building scalable
+                        applications and automation solutions. Passionate about developing high-performance systems using Spring
+                        Boot, RESTful APIs, and cloud services. Adept at problem-solving, team collaboration, and Agile
+                        methodologies.
+                    </p>
+                                            <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">120+</span>
+                                <span class="stat-label">LeetCode DSA Solved</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Backend
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express.js</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Spring Boot</span>
+                        <span class="skill-item">JPA</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-palette"></i>
+                        Frontend
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Redux</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-database"></i>
+                        Database
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">PostgreSql</span>
+                        <span class="skill-item">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-cloud"></i>
+                        DevOps & Cloud
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">AWS (EC2)</span>
+                        <span class="skill-item">Git/GitHub</span>
+                        <span class="skill-item">Docker</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Other
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">DSA</span>
+                        <span class="skill-item">Prompt Engineering</span>
+                        <span class="skill-item">AI Agents</span>
+                        <span class="skill-item">RESTful APIs</span>
+                        <span class="skill-item">Unit Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Full Stack Web Developer</h3>
+                            <span class="company">Selec Controls</span>
+                            <span class="duration">Aug 2022 - Present</span>
+                        </div>
+                        <ul class="job-description">
+                            <li>Led the development of a Warehouse Management System using Java Spring MVC and Android, ensuring seamless integration and optimal performance.</li>
+                            <li>Conceptualized and developed an automation platform with Node.js and React, streamlining tasks and enhancing productivity.</li>
+                            <li>Demonstrated project ownership and flexibility by managing development, ensuring alignment with business needs and leveraging diverse technologies effectively.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Frontend Developer</h3>
+                            <span class="company">Salesken</span>
+                            <span class="duration">Dec 2021 - Feb 2022</span>
+                        </div>
+                        <ul class="job-description">
+                            <li>Contributed as a fresher front-end developer, developing UI components and collaborating with the team to create intuitive user interfaces.</li>
+                            <li>Created RESTful APIs to support frontend functionality, enhancing the overall functionality and interactivity of web applications.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Group Chat Webapp</h3>
+                        <p class="project-description">
+                            A real-time messaging app where users can create groups, invite friends, and chat using Socket.IO. Built with MongoDB, Express, React, and Node. The app supports user authentication with JWT.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Socket.IO</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://group-chat-web-app.vercel.app/login" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/avinashnadkar/group-chat-web-app" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cart-shopping"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Ecommerce Website</h3>
+                        <p class="project-description">
+                            A full-stack ecommerce platform with product catalog, cart, checkout flow, order tracking, and admin inventory management.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://avinashnadkar.github.io/Kosi_bathandbodyworks/" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/Vinesh3124/Kosi_bathandbodyworks" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Twitter Clone</h3>
+                        <p class="project-description">
+                            A social media web app with authentication, tweet posting, likes, follow/unfollow, profile pages.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://twitter-clone-mern.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/avinashnadkar/twitter_clone_client" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Algo Trading SaaS Product</h3>
+                        <p class="project-description">
+                            A SaaS platform for strategy backtesting, trade signal automation, portfolio analytics, and broker API integrations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">PostgreSql</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/avinashnadkar/algo-trade-backend" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                            <span class="project-link">Not deployed yet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>avinashnadkar24@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91-8169198327</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mumbai, Maharashtra, India</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/avinashnadkar" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/avinash-nadkar-5932681a3/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                                         <a href="https://leetcode.com/u/avinashnadkar24/" class="social-link" target="_blank">
+                         <i class="fas fa-code"></i>
+                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 <a href="https://github.com/avinashnadkar/avinashnadkar.github.io" target="_blank" style="color: #667eea; text-decoration: none; margin-left: 10px;"><i class="fab fa-github"></i> View Source</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
