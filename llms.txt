@@ -1,0 +1,20 @@
+# Avinash Nadkar
+
+> Official portfolio of Avinash Nadkar, a software engineer and AI developer based in Mumbai, India.
+
+Avinash builds scalable full-stack applications, automation platforms, AI agents, and retrieval-augmented generation systems. His core technologies include Java, Spring Boot, Node.js, React, LangChain, LangGraph, LangSmith, vector databases, and MLOps.
+
+## Current role
+
+- Software Engineer at StackBinary (April 2026–Present): https://www.stackbinary.io/
+
+## Profiles
+
+- Portfolio: https://avinashnadkar.github.io/
+- GitHub: https://github.com/avinashnadkar
+- LinkedIn: https://www.linkedin.com/in/avinash-nadkar-5932681a3/
+- LeetCode: https://leetcode.com/u/avinashnadkar24/
+
+## Contact
+
+- Email: avinashnadkar24@gmail.com
